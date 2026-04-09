@@ -1,0 +1,22 @@
+.btn {
+  position: fixed;
+  bottom: 1.25rem;
+  inset-inline-end: 1.25rem;
+  z-index: 55;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #25d366 0%, #128c7e 100%);
+  color: #fff;
+  box-shadow: 0 8px 28px rgba(18, 140, 126, 0.45);
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.06);
+}

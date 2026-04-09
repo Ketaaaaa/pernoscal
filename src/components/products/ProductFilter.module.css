@@ -1,0 +1,30 @@
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.tab,
+.active {
+  border: 1px solid var(--border);
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-family: inherit;
+}
+
+.active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.tab:hover {
+  border-color: var(--primary-light);
+  color: var(--primary);
+}

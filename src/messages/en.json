@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "projects": "Projects",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "getInTouch": "Get in touch",
+    "viewProducts": "View products",
+    "downloadCatalogue": "Download catalogue",
+    "readMore": "Read more",
+    "backToProducts": "Back to products",
+    "completed": "Delivered",
+    "inDevelopment": "In development"
+  },
+  "meta": {
+    "home": {
+      "title": "Pernoscal | Industrial Hydraulic Systems",
+      "description": "Egyptian industrial hydraulic systems: design, manufacturing, and maintenance. Four-column presses, recycling presses, and hydraulic cylinders."
+    },
+    "about": {
+      "title": "About Pernoscal",
+      "description": "Pernoscal is an Egyptian company specialized in hydraulic systems engineering, manufacturing, and quality-driven industrial solutions."
+    },
+    "products": {
+      "title": "Products | Pernoscal",
+      "description": "Hydraulic presses and cylinders engineered for heavy industry — speed, precision, and durability."
+    },
+    "productDetail": {
+      "title": "{product} | Pernoscal",
+      "description": "{product} — hydraulic solutions from Pernoscal, Egypt."
+    },
+    "projects": {
+      "title": "Projects | Pernoscal",
+      "description": "Selected hydraulic projects and engineering solutions delivered for industrial partners."
+    },
+    "services": {
+      "title": "Services | Pernoscal",
+      "description": "Maintenance, hydraulic design, engineering consulting, and technical support."
+    },
+    "contact": {
+      "title": "Contact | Pernoscal",
+      "description": "Contact Pernoscal for hydraulic systems, quotes, and technical support."
+    }
+  },
+  "hero": {
+    "badge": "Industrial hydraulic systems · Egypt",
+    "gifAlt": "Animation illustrating precision industrial forming and molding",
+    "title": "Engineered hydraulic power for heavy industry",
+    "subtitle": "Design, manufacturing, and maintenance of presses and cylinders — built for harsh conditions with global-grade quality and local partnership.",
+    "ctaPrimary": "Explore products",
+    "ctaSecondary": "Contact us"
+  },
+  "stats": {
+    "years": "Years of focus",
+    "lines": "Product lines",
+    "values": "Core values",
+    "markets": "Growth markets"
+  },
+  "aboutTeaser": {
+    "title": "Who we are",
+    "body": "Pernoscal is an Egyptian startup specialized in designing and manufacturing hydraulic systems and integrated engineering solutions for heavy industry. We localize high-quality alternatives to imports and build long-term trust with every project."
+  },
+  "aboutPage": {
+    "title": "About Pernoscal",
+    "intro": "Pernoscal is an Egyptian emerging company specialized in designing and manufacturing hydraulic systems and delivering integrated engineering solutions for heavy industry and advanced industrial applications.",
+    "body1": "The company develops products that operate in demanding conditions while maintaining peak efficiency and quality. It works to localize industry in Egypt by offering local alternatives to imported products — reducing operational costs for factories and strengthening reliance on local manufacturing.",
+    "body2": "Pernoscal relies on accumulated practical and engineering experience in manufacturing and operations. The company applies the highest quality standards from raw material selection through final testing, with continuous innovation to improve performance and efficiency.",
+    "body3": "We aim to build long-term customer relationships through tailored, effective solutions — a trusted partner for industrial project execution."
+  },
+  "principles": {
+    "title": "Our principles",
+    "subtitle": "What guides every design, build, and service we deliver.",
+    "p1Title": "Hydraulic specialization",
+    "p1Body": "Professional work across design, manufacturing, and maintenance — not just components, but complete solutions grounded in industrial applications.",
+    "p2Title": "Integrated engineering",
+    "p2Body": "From system analysis and engineering design to the right solution for each application — fewer failures, longer equipment life, and optimal performance.",
+    "p3Title": "Strong experience",
+    "p3Body": "An engineering team with hands-on industrial experience — practical, innovative solutions that improve quality and competitiveness.",
+    "p4Title": "Quality & precision",
+    "p4Body": "Rigorous standards, careful materials selection, precise manufacturing, and multi-stage testing before delivery.",
+    "p5Title": "Local industry support",
+    "p5Body": "Reducing import dependence with high-quality local products — supporting the national economy and industrial competitiveness."
+  },
+  "vision": {
+    "title": "Our vision",
+    "banner": "Global-grade quality · Regional growth · Technology & partnerships",
+    "body": "We expand beyond Egypt into the Middle East and Africa with competitive, high-quality products and strong partner networks. We invest in manufacturing technology such as CNC to improve accuracy, reduce errors, and increase throughput — while building lasting relationships with customers and investors based on trust and quality."
+  },
+  "productsTeaser": {
+    "title": "Product range",
+    "subtitle": "Presses and cylinders built for real factory conditions."
+  },
+  "productsPage": {
+    "title": "Products",
+    "intro": "A complete range of hydraulic products designed for heavy industry — high efficiency and reliable performance under high pressure.",
+    "filterAll": "All",
+    "filterPresses": "Presses",
+    "filterCylinders": "Cylinders",
+    "filterRecycling": "Recycling"
+  },
+  "products": {
+    "fourColumn": {
+      "title": "Four-column presses",
+      "short": "Precision forming with exceptional speed, accuracy, and force.",
+      "body": "Four-column presses are used in precision forming stages that demand speed, accuracy, and exceptional force. Typical applications include melamine cookware, rubber products, and metal forming.",
+      "category": "Presses"
+    },
+    "recycling": {
+      "title": "Recycling presses",
+      "short": "Compact bales for easier transport and storage.",
+      "body": "Used in recycling programs for organic, inorganic, plastic, and metal waste. Waste is compressed into compact bales to simplify transport and reduce storage footprint.",
+      "category": "Recycling"
+    },
+    "cylinders": {
+      "title": "Hydraulic cylinders",
+      "short": "The core of every hydraulic system — durable and serviceable.",
+      "body": "Hydraulic cylinders are essential in any hydraulic system. They offer durability, pressure and speed capability, straightforward assembly and disassembly, and easy maintenance.",
+      "category": "Cylinders"
+    }
+  },
+  "projectsTeaser": {
+    "title": "Selected work",
+    "subtitle": "Real problems solved with engineered hydraulic solutions."
+  },
+  "projectsPage": {
+    "title": "Projects",
+    "intro": "Hydraulic products, engineering solutions, and services tailored to industrial partners — every challenge treated with the same care as our own.",
+    "completedTitle": "Portfolio",
+    "developmentTitle": "Under study & execution",
+    "problem": "Problem",
+    "approach": "Approach",
+    "requirements": "Requirements",
+    "status": "Status"
+  },
+  "projects": {
+    "psgRec35": {
+      "code": "PSG-REC-35",
+      "title": "Cotton bale press — Sudan",
+      "client": "Al-Hamd, Sudan",
+      "problem": "Need for a vertical hydraulic press producing dense cotton bales of 70–90 kg with: high production rate, compact footprint, and easy loading and mobility across multiple sites in the same day.",
+      "solution": "Engineered a mobile, high-cycle vertical baling solution sized for the client's logistics and output targets."
+    },
+    "psgSro": {
+      "code": "PSG-SRO-50-1500",
+      "title": "Scrap gripper — Sharqiya",
+      "client": "Al-Rahma, Sharqiya",
+      "problem": "Maintenance of a five-jaw scrap gripper imported from Turkey and manufacture of a new unit to the same specifications while avoiding known design flaws. Requirements: fast motion, high pressure capacity, and internationally conventional assembly methods.",
+      "solution": "Reverse-engineered and improved the gripper for reliability under local operating conditions."
+    },
+    "psgHp4c": {
+      "code": "PSG-HP4C-TR2-150-550-S300",
+      "title": "150 t melamine press",
+      "client": "Thermal / melamine tableware",
+      "problem": "Specialized hydraulic press for melamine homeware: fast motion, high pressure and heat resistance, up to 150 tons in minimal footprint, full control of operating programs, and worker safety against operational hazards.",
+      "solution": "Four-column press under development with integrated control and safety concept."
+    },
+    "psgRec3": {
+      "code": "PSG-REC3-120-1200-700-600",
+      "title": "Metal recycling press",
+      "client": "Metal waste recycling",
+      "problem": "Hydraulic press for metal scrap recycling: fast motion, high pressure and heat, maximum metal storage in minimal space, full program control, and worker safety.",
+      "solution": "Recycling press configuration in active engineering and build."
+    }
+  },
+  "servicesPage": {
+    "title": "Services",
+    "intro": "Beyond manufacturing — we support your hydraulic assets end to end.",
+    "maintenanceTitle": "Maintenance",
+    "maintenanceBody": "Comprehensive maintenance including fault finding and repair to improve operational efficiency.",
+    "designTitle": "Engineering design",
+    "designBody": "Custom hydraulic system design tailored to your application for best performance.",
+    "consultTitle": "Engineering consulting",
+    "consultBody": "Consulting to improve performance and reduce operating costs.",
+    "supportTitle": "Technical support",
+    "supportBody": "Ongoing technical support to keep your equipment running smoothly."
+  },
+  "cta": {
+    "title": "Ready to scope your next hydraulic system?",
+    "subtitle": "Share your application — we respond with engineering-backed options.",
+    "button": "Contact Pernoscal"
+  },
+  "contactPage": {
+    "title": "Contact",
+    "subtitle": "Tell us about your project. We reply as soon as possible.",
+    "infoTitle": "Direct contact",
+    "addressLabel": "Location",
+    "address": "Egypt — serving MENA",
+    "hours": "Sun–Thu, 9:00–17:00 (Egypt time)",
+    "mapPlaceholder": "Map: add your embed or coordinates when available."
+  },
+  "contact": {
+    "name": "Full name",
+    "company": "Company name",
+    "country": "Country",
+    "phone": "Phone / WhatsApp",
+    "email": "Email",
+    "interest": "Product interest",
+    "interestNone": "Select (optional)",
+    "interestPress": "Hydraulic press",
+    "interestCylinder": "Hydraulic cylinder",
+    "interestService": "Service / maintenance",
+    "interestOther": "Other",
+    "message": "Message",
+    "submit": "Send message",
+    "sending": "Sending…",
+    "success": "Thank you — your message was sent.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "validation": {
+      "name": "Enter at least 2 characters.",
+      "country": "Select a country.",
+      "phone": "Enter a valid phone number.",
+      "email": "Enter a valid email.",
+      "message": "Please write at least 20 characters."
+    }
+  },
+  "countries": {
+    "EG": "Egypt",
+    "SD": "Sudan",
+    "SA": "Saudi Arabia",
+    "AE": "United Arab Emirates",
+    "KW": "Kuwait",
+    "QA": "Qatar",
+    "JO": "Jordan",
+    "IQ": "Iraq",
+    "LY": "Libya",
+    "OTHER": "Other"
+  },
+  "footer": {
+    "tagline": "Industrial hydraulic systems — designed and built in Egypt.",
+    "rights": "© {year} Pernoscal. All rights reserved.",
+    "email": "Email",
+    "phone": "Phone / WhatsApp"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The link may be broken or the page may have moved."
+  },
+  "whatsapp": {
+    "label": "Chat on WhatsApp"
+  },
+  "jsonLd": {
+    "orgDescription": "Egyptian industrial hydraulic systems: presses, cylinders, design, manufacturing, and maintenance."
+  }
+}

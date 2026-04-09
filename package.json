@@ -3,22 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "clean": "node scripts/clean-next.mjs",
     "dev": "next dev",
+    "dev:clean": "node scripts/clean-next.mjs && next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "next": "14.2.18",
+    "next-intl": "^4.9.0",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.18"
+    "react-hook-form": "^7.72.1",
+    "resend": "^6.10.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.18"
+    "eslint-config-next": "14.2.18",
+    "typescript": "^5"
   }
 }

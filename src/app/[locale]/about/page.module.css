@@ -1,0 +1,19 @@
+.page {
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1rem, 4vw, 2rem) clamp(4rem, 8vw, 5rem);
+}
+
+.inner {
+  max-width: 42rem;
+  margin-inline: auto;
+}
+
+.h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(1.85rem, 4vw, 2.5rem);
+}
+
+.lead {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}

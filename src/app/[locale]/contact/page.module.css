@@ -1,0 +1,69 @@
+.page {
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1rem, 4vw, 2rem) clamp(4rem, 8vw, 5rem);
+}
+
+.inner {
+  max-width: var(--max-width);
+  margin-inline: auto;
+  display: grid;
+  gap: 2.5rem;
+}
+
+@media (min-width: 900px) {
+  .inner {
+    grid-template-columns: 1fr 1.1fr;
+    align-items: start;
+  }
+}
+
+.h1 {
+  margin: 0 0 0.65rem;
+  font-size: clamp(1.85rem, 4vw, 2.5rem);
+}
+
+.intro {
+  margin: 0 0 1.5rem;
+  font-size: 1.05rem;
+  max-width: 36rem;
+}
+
+.card {
+  padding: 1.35rem 1.25rem;
+  border-radius: var(--radius);
+  background: #fff;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
+
+.h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 0 0 0.5rem;
+}
+
+.card a {
+  font-weight: 600;
+}
+
+.muted {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.mapNote {
+  margin-top: 1rem !important;
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.formWrap {
+  padding: 1.5rem 1.35rem;
+  border-radius: var(--radius);
+  background: linear-gradient(165deg, #fff 0%, var(--surface-2) 100%);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-sm);
+}
