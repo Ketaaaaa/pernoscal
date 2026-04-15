@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -22,17 +22,27 @@ export function Header() {
   const t = useTranslations("nav");
   const tc = useTranslations("common");
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles.inner}>
         <Link href="/" className={styles.logo} onClick={() => setOpen(false)}>
           <Image
-            src="/images/logo/pernoscal-logo.svg"
-            alt=""
-            width={140}
-            height={32}
+            src="/images/logo/Pernoscal Logo black 2.png"
+            alt="Pernoscal"
+            width={160}
+            height={40}
             priority
+            style={{ objectFit: 'contain' }}
           />
           <span className="srOnly">Pernoscal</span>
         </Link>

@@ -1,11 +1,29 @@
 .header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   z-index: 50;
   height: var(--header-h);
-  background: rgba(244, 247, 252, 0.82);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+  background: rgba(244, 247, 252, 0.98);
+  border-bottom: 1px solid transparent;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scrolled {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(14px);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+  border-radius: 99rem;
+  top: 0.75rem;
+  left: clamp(1rem, 5vw, 2.5rem);
+  right: clamp(1rem, 5vw, 2.5rem);
+  height: calc(var(--header-h) - 0.5rem);
+}
+
+.scrolled .inner {
+  padding-inline: 1.5rem;
 }
 
 .inner {

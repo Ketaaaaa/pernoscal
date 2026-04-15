@@ -231,6 +231,9 @@
     "OTHER": "Other"
   },
   "footer": {
+    "productsLabel": "Products",
+    "servicesLabel": "Services",
+    "linksLabel": "Company",
     "tagline": "Industrial hydraulic systems — designed and built in Egypt.",
     "rights": "© {year} Pernoscal. All rights reserved.",
     "email": "Email",

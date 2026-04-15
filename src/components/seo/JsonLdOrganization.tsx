@@ -17,7 +17,7 @@ export async function JsonLdOrganization({ locale }: { locale: string }) {
         ? "شركة برنوسكال للأنظمة الهيدروليك الصناعية"
         : "Pernoscal Industrial Hydraulic Systems",
     url: `${base}/${locale}`,
-    logo: `${base}/images/logo/pernoscal-logo.svg`,
+    logo: `${base}/images/logo/All%20Pernoscal%20Logo_page-0005.jpg`,
     description: t("orgDescription"),
     email: "Info@pernoscal.com",
     telephone: "+20-12-08830492",

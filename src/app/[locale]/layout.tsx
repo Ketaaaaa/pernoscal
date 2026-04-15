@@ -78,12 +78,12 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
-      <body className={`${cairo.variable} ${inter.variable}`}>
+    <html lang={locale}>
+      <body className={`${cairo.variable} ${inter.variable}`} dir={locale === "ar" ? "rtl" : "ltr"}>
         <JsonLdOrganization locale={locale} />
         <NextIntlClientProvider messages={messages}>
           <Header />
-          <main id="main-content">{children}</main>
+          <main id="main-content" style={{ paddingTop: "var(--header-h)" }}>{children}</main>
           <Footer />
           <WhatsAppButton />
         </NextIntlClientProvider>
