@@ -7,6 +7,7 @@ import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Button } from "@/components/ui/Button";
+import { ThemeToggle } from "@/components/ui/ThemeToggle";
 import styles from "./Header.module.css";
 
 const navKeys = [
@@ -37,12 +38,22 @@ export function Header() {
       <div className={styles.inner}>
         <Link href="/" className={styles.logo} onClick={() => setOpen(false)}>
           <Image
-            src="/images/logo/Pernoscal Logo black 2.png"
+            src="/images/logo/erasebg-transformed%20(2).png"
             alt="Pernoscal"
             width={160}
             height={40}
             priority
-            style={{ objectFit: 'contain' }}
+            className={styles.logoLight}
+            style={{ objectFit: "contain" }}
+          />
+          <Image
+            src="/images/logo/erasebg-transformed%20(3).png"
+            alt="Pernoscal"
+            width={160}
+            height={40}
+            priority
+            className={styles.logoDark}
+            style={{ objectFit: "contain" }}
           />
           <span className="srOnly">Pernoscal</span>
         </Link>
@@ -57,6 +68,7 @@ export function Header() {
 
         <div className={styles.actions}>
           <LanguageSwitcher />
+          <ThemeToggle />
           <Button href="/contact" variant="primary" className="hideMobile">
             {tc("getInTouch")}
           </Button>

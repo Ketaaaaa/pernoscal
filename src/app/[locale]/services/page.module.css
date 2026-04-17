@@ -35,7 +35,7 @@
 .card {
   padding: 1.5rem 1.35rem;
   border-radius: var(--radius);
-  background: linear-gradient(160deg, #fff, var(--surface-2));
+  background: linear-gradient(160deg, var(--card), var(--surface-2));
   border: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
   transition:

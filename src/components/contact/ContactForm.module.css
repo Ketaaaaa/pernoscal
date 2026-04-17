@@ -31,7 +31,7 @@
   padding: 0.7rem 0.85rem;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
-  background: #fff;
+  background: var(--card);
   color: var(--text-primary);
 }
 
@@ -51,7 +51,7 @@
 .error {
   font-size: 0.82rem;
   font-weight: 500;
-  color: #b42318;
+  color: var(--danger-ink);
 }
 
 .submit {
@@ -83,10 +83,10 @@
 
 .bannerOk {
   background: rgba(0, 194, 168, 0.12);
-  color: #0a6b5c;
+  color: var(--success-ink);
 }
 
 .bannerErr {
   background: rgba(180, 35, 24, 0.1);
-  color: #b42318;
+  color: var(--danger-ink);
 }

@@ -8,7 +8,7 @@
 .tab,
 .active {
   border: 1px solid var(--border);
-  background: #fff;
+  background: var(--card);
   padding: 0.5rem 1rem;
   border-radius: 999px;
   font-size: 0.9rem;

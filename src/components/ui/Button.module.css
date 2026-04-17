@@ -38,7 +38,7 @@
 }
 
 .secondary:hover {
-  background: #fff;
+  background: var(--card);
 }
 
 .ghost {

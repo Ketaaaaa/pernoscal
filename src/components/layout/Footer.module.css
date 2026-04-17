@@ -1,7 +1,7 @@
 .footer {
   margin-top: 4rem;
   padding: 3rem clamp(1rem, 4vw, 2rem) 2rem;
-  background: linear-gradient(180deg, var(--surface-2) 0%, #dfe8f5 100%);
+  background: linear-gradient(180deg, var(--surface-2) 0%, var(--footer-gradient-end) 100%);
   border-top: 1px solid var(--border);
 }
 
@@ -30,6 +30,27 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+}
+
+.logoWrap {
+  display: inline-flex;
+  align-items: center;
+}
+
+.logoLight {
+  display: block;
+}
+
+.logoDark {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .logoLight {
+  display: none;
+}
+
+:global(html[data-theme="dark"]) .logoDark {
+  display: block;
 }
 
 .columnTitle {

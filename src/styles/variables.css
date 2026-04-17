@@ -1,22 +1,48 @@
 :root {
-  --primary: #0057d8;
-  --primary-light: #4a90f5;
-  --accent: #00c2a8;
-  --surface: #f4f7fc;
-  --surface-2: #e8eef8;
-  --text-primary: #0d1f3c;
-  --text-secondary: #4a5b78;
-  --gradient-hero: linear-gradient(
-    135deg,
-    #eaf2ff 0%,
-    #f4f7fc 50%,
-    #e0f8f4 100%
-  );
-  --border: rgba(0, 87, 216, 0.12);
-  --shadow-sm: 0 4px 24px rgba(0, 87, 216, 0.08);
-  --shadow-md: 0 12px 48px rgba(13, 31, 60, 0.1);
+  /* Brand palette source:
+     #f8e795  #a5743c  #936529  #393633 */
+  --primary: #a5743c;
+  --primary-light: #936529;
+  --accent: #f8e795;
+  --surface: #fbf6df;
+  --surface-2: #f3e7bf;
+  --card: #fffdf2;
+  --card-2: linear-gradient(165deg, var(--card) 0%, var(--surface-2) 100%);
+  --text-primary: #393633;
+  --text-secondary: rgba(57, 54, 51, 0.78);
+  --gradient-hero: linear-gradient(135deg, #fff3c1 0%, var(--surface) 50%, #fffdf2 100%);
+  --border: rgba(165, 116, 60, 0.18);
+  --shadow-sm: 0 4px 24px rgba(57, 54, 51, 0.08);
+  --shadow-md: 0 12px 48px rgba(57, 54, 51, 0.14);
+  --header-bg: rgba(251, 246, 223, 0.92);
+  --header-bg-scrolled: rgba(255, 253, 242, 0.7);
+  --overlay: rgba(57, 54, 51, 0.35);
+  --danger: #b42318;
+  --danger-ink: #b42318;
+  --success-ink: #0a6b5c;
+  --footer-gradient-end: #efe0ad;
   --radius: 16px;
   --radius-sm: 10px;
   --max-width: 1280px;
   --header-h: 72px;
+}
+
+html[data-theme="dark"] {
+  --surface: #1f1d1c;
+  --surface-2: #2a2726;
+  --card: #34302f;
+  --card-2: linear-gradient(165deg, var(--card) 0%, var(--surface-2) 100%);
+  --text-primary: #f8e795;
+  --text-secondary: rgba(248, 231, 149, 0.78);
+  --gradient-hero: linear-gradient(135deg, #2a2726 0%, #1f1d1c 55%, rgba(165, 116, 60, 0.14) 100%);
+  --border: rgba(248, 231, 149, 0.16);
+  --shadow-sm: 0 10px 30px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 18px 70px rgba(0, 0, 0, 0.62);
+  --header-bg: rgba(31, 29, 28, 0.82);
+  --header-bg-scrolled: rgba(52, 48, 47, 0.62);
+  --overlay: rgba(0, 0, 0, 0.6);
+  --danger: #ff6b5c;
+  --danger-ink: #ff6b5c;
+  --success-ink: #7cf5e4;
+  --footer-gradient-end: #171514;
 }

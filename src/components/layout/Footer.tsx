@@ -19,14 +19,26 @@ export async function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.column}>
-          <Image
-            src="/images/logo/Pernoscal Logo black 2.png"
-            alt="Pernoscal"
-            width={180}
-            height={45}
-            style={{ objectFit: 'contain' }}
-            priority
-          />
+          <div className={styles.logoWrap}>
+            <Image
+              src="/images/logo/erasebg-transformed%20(2).png"
+              alt="Pernoscal"
+              width={180}
+              height={45}
+              style={{ objectFit: "contain" }}
+              priority
+              className={styles.logoLight}
+            />
+            <Image
+              src="/images/logo/erasebg-transformed%20(3).png"
+              alt="Pernoscal"
+              width={180}
+              height={45}
+              style={{ objectFit: "contain" }}
+              priority
+              className={styles.logoDark}
+            />
+          </div>
           <p className={styles.tagline}>{t("tagline")}</p>
           <div className={styles.contactList}>
             <a href={`mailto:${COMPANY_EMAIL}`} className={styles.contactLink}>

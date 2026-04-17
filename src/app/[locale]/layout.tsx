@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { Cairo, Inter } from "next/font/google";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
@@ -42,7 +43,11 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     icons: {
-      icon: [{ url: "/favicon.ico", sizes: "any" }],
+      icon: [
+        { url: "/favicon-light.ico", sizes: "any", media: "(prefers-color-scheme: light)" },
+        { url: "/favicon-dark.ico", sizes: "any", media: "(prefers-color-scheme: dark)" },
+        { url: "/favicon.ico", sizes: "any" },
+      ],
     },
     alternates: {
       canonical: `/${locale}`,
@@ -79,6 +84,19 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale}>
+      <Script
+        id="theme-init"
+        strategy="beforeInteractive"
+      >{`(() => {
+  try {
+    const key = "theme";
+    const saved = localStorage.getItem(key);
+    const systemDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const theme = (saved === "light" || saved === "dark") ? saved : (systemDark ? "dark" : "light");
+    document.documentElement.dataset.theme = theme;
+    document.documentElement.style.colorScheme = theme;
+  } catch {}
+})();`}</Script>
       <body className={`${cairo.variable} ${inter.variable}`} dir={locale === "ar" ? "rtl" : "ltr"}>
         <JsonLdOrganization locale={locale} />
         <NextIntlClientProvider messages={messages}>
