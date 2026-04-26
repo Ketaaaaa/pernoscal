@@ -5,9 +5,20 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { ParticleField } from "@/components/3d/ParticleField";
+import {
+  FacebookIcon,
+  InstagramIcon,
+  LinkedinIcon,
+} from "@/components/ui/BrandIcons";
 import styles from "./HeroSection.module.css";
 
 const HERO_GIF = "/images/hero/Injection-Molding-Process-thriam.gif";
+
+const socialLinks = [
+  { icon: LinkedinIcon, href: "https://linkedin.com/company/pernoscal", label: "LinkedIn" },
+  { icon: FacebookIcon, href: "https://facebook.com/pernoscal", label: "Facebook" },
+  { icon: InstagramIcon, href: "https://instagram.com/pernoscal", label: "Instagram" },
+];
 
 export function HeroSection() {
   const t = useTranslations("hero");
@@ -36,6 +47,24 @@ export function HeroSection() {
             <Button href="/contact" variant="secondary">
               {t("ctaSecondary")}
             </Button>
+          </div>
+
+          <div className={styles.socials}>
+            {socialLinks.map((social, i) => (
+              <motion.a
+                key={social.label}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+                aria-label={social.label}
+                initial={{ opacity: 0, x: -10 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.4 + i * 0.1 }}
+              >
+                <social.icon size={20} />
+              </motion.a>
+            ))}
           </div>
         </motion.div>
         <motion.div

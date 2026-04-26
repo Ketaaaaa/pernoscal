@@ -38,7 +38,7 @@ export function Header() {
       <div className={styles.inner}>
         <Link href="/" className={styles.logo} onClick={() => setOpen(false)}>
           <Image
-            src="/images/logo/erasebg-transformed%20(2).png"
+            src="/images/logo/logo-nav-light.png"
             alt="Pernoscal"
             width={160}
             height={40}
@@ -47,7 +47,7 @@ export function Header() {
             style={{ objectFit: "contain" }}
           />
           <Image
-            src="/images/logo/erasebg-transformed%20(3).png"
+            src="/images/logo/logo-nav-dark.png"
             alt="Pernoscal"
             width={160}
             height={40}
