@@ -4,17 +4,14 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { ProductCard } from "@/components/products/ProductCard";
+import type { ProductSlug } from "@/data/products";
 import styles from "./ProductsTeaser.module.css";
 
 export function ProductsTeaser() {
   const t = useTranslations("productsTeaser");
-  const tp = useTranslations("products");
+  const th = useTranslations("homeProducts");
 
-  const items = [
-    { slug: "four-column-press" as const, ns: "fourColumn" as const },
-    { slug: "recycling-press" as const, ns: "recycling" as const },
-    { slug: "hydraulic-cylinders" as const, ns: "cylinders" as const },
-  ];
+  const items: ProductSlug[] = ["pillarPress", "metalRecycling", "cylinders"];
 
   return (
     <section className={styles.section} aria-labelledby="products-teaser-title">
@@ -26,7 +23,7 @@ export function ProductsTeaser() {
           align="center"
         />
         <div className={styles.grid}>
-          {items.map(({ slug, ns }, i) => (
+          {items.map((slug, i) => (
             <motion.div
               key={slug}
               initial={{ opacity: 0, y: 22 }}
@@ -36,9 +33,9 @@ export function ProductsTeaser() {
             >
               <ProductCard
                 slug={slug}
-                title={tp(`${ns}.title`)}
-                short={tp(`${ns}.short`)}
-                category={tp(`${ns}.category`)}
+                title={th(`${slug}.title`)}
+                short={th(`${slug}.tagline`)}
+                category={th(`${slug}.badge`)}
               />
             </motion.div>
           ))}
