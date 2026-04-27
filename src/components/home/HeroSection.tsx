@@ -64,7 +64,7 @@ export function HeroSection() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 + i * 0.1 }}
               >
-                <social.icon size={20} />
+                <social.icon width={20} height={20} />
               </motion.a>
             ))}
           </div>
