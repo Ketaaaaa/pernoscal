@@ -13,6 +13,8 @@ html {
 html,
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
   min-height: 100vh;
   background: var(--surface);
   color: var(--text-secondary);
@@ -20,7 +22,6 @@ body {
   line-height: 1.65;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
-  scrollbar-gutter: stable;
 }
 
 html[lang="ar"] body {

@@ -13,7 +13,7 @@ const keys: { id: ProductCategory; labelKey: string }[] = [
   { id: "all", labelKey: "filterAll" },
   { id: "presses", labelKey: "filterPresses" },
   { id: "recycling", labelKey: "filterRecycling" },
-  { id: "cylinders", labelKey: "filterCylinders" },
+  { id: "hydraulics", labelKey: "filterHydraulics" },
 ];
 
 export function ProductFilter({ value, onChange }: Props) {

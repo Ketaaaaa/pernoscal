@@ -1,0 +1,385 @@
+.section {
+  padding: 100px 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+
+.label {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--primary);
+  margin-bottom: 12px;
+}
+
+.title {
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.guideGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+@media (max-width: 992px) {
+  .guideGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.guideCard {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 20px;
+}
+
+.cardText {
+  font-size: 16px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.formulaBox {
+  background: rgba(165, 116, 60, 0.05);
+  border-left: 4px solid var(--primary);
+  padding: 24px;
+  border-radius: 0 16px 16px 0;
+  margin-bottom: 24px;
+}
+
+[dir="rtl"] .formulaBox {
+  border-left: none;
+  border-right: 4px solid var(--primary);
+  border-radius: 16px 0 0 16px;
+}
+
+.formulaTitle {
+  color: var(--text-primary);
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.formulaCode {
+  display: block;
+  font-family: var(--font-mono, monospace);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 16px;
+}
+
+.formulaLegend {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.exampleBox {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.exampleTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--text-primary);
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.exampleText {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.pressureGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.pressureItem {
+  background: rgba(165, 116, 60, 0.1);
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.pressureRange {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.pressureLabel {
+  font-size: 12px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.safetyBox {
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+  flex-grow: 1;
+}
+
+.safetyTitle {
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+
+.safetyText {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.tipBox {
+  background: rgba(165, 116, 60, 0.05);
+  border: 1px solid rgba(165, 116, 60, 0.2);
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.tipBox p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.primaryBtn {
+  margin-top: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primaryBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px -5px rgba(165, 116, 60, 0.4);
+}
+
+/* Comparison Table */
+.comparisonSection {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.comparisonTitle {
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--text-primary);
+  text-align: center;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.comparisonSubtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 40px;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 24px;
+  border: 1px solid var(--border);
+  backdrop-filter: blur(10px);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+.table th {
+  padding: 24px;
+  text-align: left;
+  color: var(--text-primary);
+  font-weight: 700;
+  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+[dir="rtl"] .table th {
+  text-align: right;
+}
+
+.table td {
+  padding: 20px 24px;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border);
+}
+
+.featureCell {
+  color: var(--text-primary);
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.01);
+}
+
+/* Automation Section */
+.automationRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@media (max-width: 992px) {
+  .automationRow {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+.automationImageContainer {
+  width: 100%;
+}
+
+.videoPlaceholder {
+  position: relative;
+  width: 100%;
+  padding-bottom: 75%;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.image {
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playBtn {
+  width: 80px;
+  height: 80px;
+  background: var(--primary);
+  border: 4px solid var(--accent);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding-left: 5px;
+}
+
+.playBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px rgba(165, 116, 60, 0.6);
+}
+
+.caption {
+  text-align: center;
+  margin-top: 16px;
+  color: var(--text-secondary);
+  font-style: italic;
+  font-size: 14px;
+}
+
+.automationContent h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+}
+
+.automationDesc {
+  font-size: 17px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.automationList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+.automationList li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.automationList li svg {
+  color: var(--primary);
+  flex-shrink: 0;
+}

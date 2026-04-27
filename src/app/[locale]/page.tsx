@@ -1,11 +1,12 @@
 import { setRequestLocale } from "next-intl/server";
 import { HeroSection } from "@/components/home/HeroSection";
 import { AboutTeaser } from "@/components/home/AboutTeaser";
-import { ProductsTeaser } from "@/components/home/ProductsTeaser";
 import { VisionBanner } from "@/components/home/VisionBanner";
-import { PrinciplesSection } from "@/components/home/PrinciplesSection";
-import { ProjectsShowcase } from "@/components/home/ProjectsShowcase";
-import { CTASection } from "@/components/home/CTASection";
+import { ProductRows } from "@/components/home/ProductRows";
+import { WhyChooseUs } from "@/components/home/WhyChooseUs";
+import { SelectionGuide } from "@/components/home/SelectionGuide";
+import { FAQ } from "@/components/home/FAQ";
+import { Inquiry } from "@/components/home/Inquiry";
 
 export default function HomePage({
   params,
@@ -18,11 +19,12 @@ export default function HomePage({
     <>
       <HeroSection />
       <AboutTeaser />
-      <ProductsTeaser />
       <VisionBanner />
-      <PrinciplesSection />
-      <ProjectsShowcase />
-      <CTASection />
+      <ProductRows />
+      <WhyChooseUs />
+      <SelectionGuide />
+      <FAQ />
+      <Inquiry />
     </>
   );
 }

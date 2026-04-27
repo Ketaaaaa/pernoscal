@@ -100,7 +100,7 @@
     "intro": "A complete range of hydraulic products designed for heavy industry — high efficiency and reliable performance under high pressure.",
     "filterAll": "All",
     "filterPresses": "Presses",
-    "filterCylinders": "Cylinders",
+    "filterHydraulics": "Hydraulics",
     "filterRecycling": "Recycling"
   },
   "products": {
@@ -248,5 +248,330 @@
   },
   "jsonLd": {
     "orgDescription": "Egyptian industrial hydraulic systems: presses, cylinders, design, manufacturing, and maintenance."
+  },
+  "homeProducts": {
+    "pillarPress": {
+      "badge": "Presses",
+      "title": "Pillar Press (PSG-HP4C)",
+      "tagline": "Industrial Precision & Versatility",
+      "description": "The four-column structure provides superior rigidity and precise guidance for the moving platen, ensuring high accuracy and consistent quality across all forming operations.",
+      "f1": "High-rigidity four-column structure",
+      "f2": "Precision PLC + HMI control system",
+      "f3": "Rapid approach and return speeds",
+      "f4": "Capacity range from 100 to 5000+ tons"
+    },
+    "deepDrawing": {
+      "badge": "Presses",
+      "title": "Deep Drawing Press (PSG-HPDD)",
+      "tagline": "Precision Metal Forming",
+      "description": "Specialized hydraulic press for deep drawing and metal forming. Features precise pressure control, ideal for complex geometric shapes and large surface workpieces.",
+      "f1": "Optimized for deep drawing cycles",
+      "f2": "Precision hydraulic pressure control",
+      "f3": "Handles complex geometries with ease",
+      "f4": "Force capacity from 40 to 1000+ tons"
+    },
+    "thermalPress": {
+      "badge": "Presses",
+      "title": "Thermal Forming Press (PSG-HPTF)",
+      "tagline": "Heat & Pressure Specialists",
+      "description": "Specialized for thermal forming of rubber, silicone, porcelain, and melamine. Available with fixed or moving lower platens for improved operator safety.",
+      "f1": "Ideal for Rubber, Silicone, and Melamine",
+      "f2": "Available with moving lower platen",
+      "f3": "Programmable with 100+ recipe storage",
+      "f4": "Force capacity from 80 to 600+ tons"
+    },
+    "verticalRecycling": {
+      "badge": "Recycling",
+      "title": "Vertical Baling Press (PSG-RECV)",
+      "tagline": "Compact & Efficient Waste Management",
+      "description": "Designed for reliability and environmental efficiency. Single-axis operation ensures consistent compression of metals, plastics, and other recyclables in a compact footprint.",
+      "f1": "Compact design for minimal space usage",
+      "f2": "Semi-automatic bale ejection system",
+      "f3": "Clear points for manual bale tying",
+      "f4": "Force capacity from 20 to 150 tons"
+    },
+    "horizontalRecycling": {
+      "badge": "Recycling",
+      "title": "Horizontal Baling Press (PSG-RECH)",
+      "tagline": "High-Volume Automated Processing",
+      "description": "Fully automatic horizontal press designed for high-volume cardboard, plastic, and metal recycling. Minimizes labor costs while maximizing productivity.",
+      "f1": "Fully automatic feeding and baling",
+      "f2": "High-volume output (25–95 tons/day)",
+      "f3": "Produces dense bales up to 1250kg",
+      "f4": "Force capacity from 100 to 400 tons"
+    },
+    "metalRecycling": {
+      "badge": "Recycling",
+      "title": "Metal Baling Press (PSG-RECM)",
+      "tagline": "Heavy-Duty Scrap Processing",
+      "description": "Semi-automatic horizontal press specifically engineered for scrap metal, aluminum, and steel. Transforms bulky industrial debris into dense, stackable bales ready for transport.",
+      "f1": "Ideal for scrap metal and industrial debris",
+      "f2": "High-strength structure for tough materials",
+      "f3": "Reduces waste volume by up to 90%",
+      "f4": "Force capacity from 40 to 150 tons"
+    },
+    "cylinders": {
+      "badge": "Hydraulics",
+      "title": "Hydraulic Cylinders (PSG-CYL)",
+      "tagline": "The Heart of Every System",
+      "description": "High-performance cylinders designed for durability and high-pressure linear motion. Engineered for easy maintenance and extreme reliability.",
+      "f1": "Custom manufactured to specifications",
+      "f2": "High-grade materials for long life",
+      "f3": "Exceptional pressure and speed handling",
+      "f4": "Simplified design for easy maintenance"
+    },
+    "pistonRods": {
+      "badge": "Hydraulics",
+      "title": "Piston Rods (PSG-ROD)",
+      "tagline": "Hard Chrome-Plated Precision",
+      "description": "Premium hard chrome-plated piston rods (Ck45). Features exceptional surface hardness and corrosion resistance for demanding industrial applications.",
+      "f1": "Ck45 high-quality carbon steel",
+      "f2": "Hard chrome plating for wear resistance",
+      "f3": "Surface hardness up to 850–1150 HV",
+      "f4": "Precision ground and polished finish"
+    },
+    "honedTubes": {
+      "badge": "Hydraulics",
+      "title": "Honed Tubes (PSG-TUBE)",
+      "tagline": "High-Precision Cylinder Barrels",
+      "description": "St52.3 cold-drawn seamless honed tubes. Manufactured to strict tolerances for internal diameter smoothness and dimensional accuracy.",
+      "f1": "St52.3 / E355 grade steel",
+      "f2": "H8/H9 tolerance for internal diameter",
+      "f3": "Superior surface finish (Ra < 0.4µm)",
+      "f4": "Cold-drawn for enhanced mechanical properties"
+    },
+    "sealingSystems": {
+      "badge": "Hydraulics",
+      "title": "Sealing Systems (PSG-SEAL)",
+      "tagline": "Zero-Leakage Performance",
+      "description": "Comprehensive range of hydraulic seals including piston, rod, and wiper seals. Designed to withstand high pressures and extreme temperature variations.",
+      "f1": "High-pressure resistance (up to 400+ bar)",
+      "f2": "Wide temperature range compatibility",
+      "f3": "Low friction for smooth operation",
+      "f4": "Compatible with various hydraulic fluids"
+    },
+    "quote": "Request a Quote",
+    "details": "View Details"
+  },
+  "whyChooseUs": {
+    "label": "Core Strengths",
+    "title": "Why Choose Pernoscal",
+    "subtitle": "Providing industry-leading hydraulic solutions with regional support and guaranteed reliability.",
+    "advantage": "Advantage",
+    "tabs": {
+      "warranty": {
+        "navTitle": "3-Year Warranty",
+        "navSubtitle": "Long-term Protection",
+        "tagline": "Guaranteed Long-Term Performance",
+        "quote": "\"Unmatched coverage for your peace of mind and production stability. We stand behind every system we build.\"",
+        "features": {
+          "f1": { "title": "Full System Protection", "desc": "36-month warranty covers hydraulic systems, electrics, and control systems." },
+          "f2": { "title": "Swift Replacement", "desc": "Local spare parts network ensures rapid component and seal replacement." },
+          "f3": { "title": "100% Core Parts", "desc": "Complete coverage on all critical components including frames and pumps." },
+          "f4": { "title": "24h Response Time", "desc": "Our technical support team responds within 24 hours to any request." }
+        }
+      },
+      "global": {
+        "navTitle": "Export Reach",
+        "navSubtitle": "Regional Excellence",
+        "tagline": "Proven Industrial Excellence",
+        "quote": "\"A footprint built on trust, quality, and engineering excellence across the region.\"",
+        "features": {
+          "f1": { "title": "Quality Compliance", "desc": "Fully certified with international safety standards for seamless integration." },
+          "f2": { "title": "Diverse Projects", "desc": "Hundreds of factories rely on our systems daily, from workshops to large plants." },
+          "f3": { "title": "Industrial Solutions", "desc": "Serving automotive, heavy machinery, and recycling sectors with precision." },
+          "f4": { "title": "Local Expertise", "desc": "We understand regional requirements, safety regulations, and specific needs." }
+        }
+      },
+      "multilingual": {
+        "navTitle": "Expert Team",
+        "navSubtitle": "Clear Communication",
+        "tagline": "Seamless Technical Support",
+        "quote": "\"Breaking barriers for better support and clearer communication. We speak your language.\"",
+        "features": {
+          "f1": { "title": "Expert Consultation", "desc": "Our technical teams provide native-level support in multiple languages." },
+          "f2": { "title": "High Availability", "desc": "Responsive teams assist you anytime, ensuring immediate help for urgent needs." },
+          "f3": { "title": "Technical Documents", "desc": "All manuals and guides are professionally translated into your language." },
+          "f4": { "title": "Video Support", "desc": "Live video calls with engineers for real-time troubleshooting assistance." }
+        }
+      },
+      "local": {
+        "navTitle": "Localized Service",
+        "navSubtitle": "On-Site Support",
+        "tagline": "On-the-Ground Technical Help",
+        "quote": "\"Local expertise for global solutions. We ensure rapid on-site response through our regional network.\"",
+        "features": {
+          "f1": { "title": "On-Site Installation", "desc": "Factory-trained technicians available for setup, alignment, and training." },
+          "f2": { "title": "Regional Warehousing", "desc": "Strategically located spare parts ensure immediate availability." },
+          "f3": { "title": "Service Network", "desc": "Our network provides direct sales, technical advice, and after-sales support." },
+          "f4": { "title": "Quick Response", "desc": "Local technicians handle service and repairs quickly to minimize downtime." }
+        }
+      },
+      "delivery": {
+        "navTitle": "Fast Delivery",
+        "navSubtitle": "Optimized Timelines",
+        "tagline": "Accelerate Your Production",
+        "quote": "\"Ready when you are. Our streamlined processes reduce your wait time significantly.\"",
+        "features": {
+          "f1": { "title": "Stock Availability", "desc": "We maintain a constant inventory of standard models ready for shipment." },
+          "f2": { "title": "Logistics Efficiency", "desc": "Our optimized export processes cut lead times compared to industry average." },
+          "f3": { "title": "Secure Shipping", "desc": "Partnerships with major carriers ensure fast and secure delivery routes." },
+          "f4": { "title": "Real-Time Tracking", "desc": "Full visibility of your shipment with live status updates and support." }
+        }
+      },
+      "experience": {
+        "navTitle": "18 Years Experience",
+        "navSubtitle": "Industry Expertise",
+        "tagline": "Deep Manufacturing Mastery",
+        "quote": "\"Built on decades of innovation. We bring nearly 20 years of expertise to every unit.\"",
+        "features": {
+          "f1": { "title": "Proven Track Record", "desc": "Over 2,000+ units delivered to satisfied customers since our founding." },
+          "f2": { "title": "R&D Innovation", "desc": "Continuous investment in hydraulic technology and energy-efficient features." },
+          "f3": { "title": "Engineering Team", "desc": "50+ skilled technicians dedicated to development and quality control." },
+          "f4": { "title": "Industry Standard", "desc": "Certified ISO 9001 manufacturer meeting the highest quality standards." }
+        }
+      }
+    }
+  },
+  "selectionGuide": {
+    "label": "Selection Guide",
+    "title": "How to Choose",
+    "subtitle": "Expert insights to help you choose the perfect hydraulic press for your metal forming needs.",
+    "calculation": {
+      "title": "Calculate Cylinder Diameter",
+      "desc": "Selecting the right hydraulic press starts with calculating the required cylinder diameter based on your pressing force needs.",
+      "formulaTitle": "Cylinder Diameter Formula:",
+      "legend": {
+        "d": "Cylinder Diameter (mm)",
+        "f": "Required Force (N)",
+        "p": "System Pressure (MPa)"
+      },
+      "example": {
+        "title": "Calculation Example",
+        "desc": "For <strong>100 ton press</strong> at <strong>25 MPa</strong> system pressure:<br/><br/>D = √(4 × 1,000,000 / 3.14159 × 25) = <strong style=\"color: #f8e795;\">225.7 mm</strong><br/><br/>Recommendation: Choose <strong>PSG-HP4C-100T</strong> with Ø250mm cylinder"
+      },
+      "btn": "Use Online Calculator"
+    },
+    "pressure": {
+      "title": "Hydraulic System Pressure",
+      "desc": "Standard system pressure ranges for different hydraulic press applications.",
+      "types": {
+        "light": "Light Duty Press",
+        "standard": "Standard Press",
+        "heavy": "Heavy Duty Press",
+        "high": "High Pressure"
+      },
+      "safety": {
+        "title": "Safety Factor Guidelines",
+        "desc": "Always apply a safety factor of 1.25 - 1.5 to your calculated force. This accounts for pressure losses, seal friction, and ensures reliable operation over the machine's lifetime."
+      },
+      "tip": "Higher system pressure allows smaller cylinder diameters for the same force output."
+    },
+    "comparison": {
+      "title": "Model Comparison",
+      "subtitle": "Compare different hydraulic press types to find the ideal machine for your requirements.",
+      "table": {
+        "header": {
+          "feature": "Feature",
+          "y32": "PSG-HP4C Pillar Press",
+          "y27": "PSG-HPDD Deep Drawing",
+          "y41": "PSG-HPCF C-Frame Press"
+        },
+        "rows": {
+          "structure": { "label": "Frame Structure", "y32": "Four-Column", "y27": "Four-Column", "y41": "C-Frame (Gap)" },
+          "application": { "label": "Main Application", "y32": "Stamping/Forming", "y27": "Deep Drawing", "y41": "Straightening/Pressing" },
+          "space": { "label": "Working Space", "y32": "Large", "y27": "Large", "y41": "Three-Side Access" },
+          "control": { "label": "Stroke Control", "y32": "Adjustable", "y27": "Adjustable + Cushion", "y41": "Adjustable" },
+          "force": { "label": "Force Range", "y32": "100-10000+T", "y27": "100-10000+T", "y41": "10-315T" },
+          "bestFor": { "label": "Best For", "y32": "General Forming", "y27": "Complex Shapes", "y41": "Small Parts/Assembly" },
+          "automation": { "label": "Automation", "y32": "Manual/Auto", "y27": "Manual/Auto", "y41": "Manual/Semi-Auto" },
+          "price": { "label": "Price Level", "y32": "Mid-High", "y27": "Mid-High", "y41": "Entry-Mid" }
+        }
+      }
+    },
+    "automation": {
+      "title": "Automated Production Line",
+      "desc": "Pernoscal offers complete automated hydraulic press solutions with robots and moving worktables. Achieve unmanned operation and consistent quality.",
+      "features": {
+        "f1": "Robot for automatic loading/unloading",
+        "f2": "Moving worktable for quick die change",
+        "f3": "PLC + HMI for intelligent control",
+        "f4": "Reduce labor costs by up to 80%",
+        "f5": "Customizable turnkey solutions"
+      },
+      "btn": "Inquire About Automation",
+      "caption": "Click to view automated production line in action"
+    }
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers to common questions about hydraulic presses and Pernoscal equipment",
+    "items": {
+      "calculation": {
+        "question": "How do I calculate the required hydraulic cylinder diameter?",
+        "answer": "<p>Use the formula: <strong>D = √(4F / πP)</strong>, where D is cylinder diameter (mm), F is required force (N), and P is system pressure (MPa). For a 100-ton press at 25 MPa, the cylinder diameter would be approximately 226mm.</p><p>Always apply a 1.25-1.5 safety factor. <a href=\"/contact\">Contact our engineering team</a> for precise calculations for your specific application.</p>"
+      },
+      "models": {
+        "question": "What's the difference between PSG-HP4C, PSG-HPDD, and PSG-HPCF hydraulic presses?",
+        "answer": "<p><strong>PSG-HP4C (Pillar Press)</strong> features a four-column structure for general stamping and forming. <strong>PSG-HPDD (Deep Drawing Press)</strong> is optimized for metal deep drawing with precise cushion control. <strong>PSG-HPCF (C-Frame Press)</strong> has a compact C-frame design ideal for straightening, pressing, and small parts assembly with three-side access.</p>"
+      },
+      "accuracy": {
+        "question": "How accurate is a Pernoscal hydraulic press?",
+        "answer": "<p>Pernoscal hydraulic presses achieve stroke positioning accuracy of ±0.1mm with standard proportional valves. With servo hydraulic systems, accuracy can reach ±0.02mm. Parallelism between ram and worktable is maintained within 0.05mm/m.</p>"
+      },
+      "materials": {
+        "question": "What materials can be formed with hydraulic presses?",
+        "answer": "<p>Mild steel, stainless steel, aluminum, copper, brass, titanium, and various alloys. Hydraulic presses excel at deep drawing, stamping, forging, and forming operations. Material thickness capacity depends on press tonnage and working area dimensions.</p>"
+      },
+      "delivery": {
+        "question": "What is the typical delivery time?",
+        "answer": "<p>Standard hydraulic presses (PSG-HPCF series) are typically ready within 3-4 weeks. Larger four-column presses (PSG-HP4C, PSG-HPDD) require 6-8 weeks for production. Custom configurations may take 8-12 weeks depending on specifications.</p>"
+      },
+      "warranty": {
+        "question": "What warranty does Pernoscal provide?",
+        "answer": "<p>All Pernoscal hydraulic presses come with a comprehensive 3-year warranty covering the hydraulic system, electrical components, frame structure, and control system. Seals and hydraulic oil are consumables with recommended service intervals.</p>"
+      },
+      "installation": {
+        "question": "Does Pernoscal provide on-site installation and training?",
+        "answer": "<p>Yes, we offer professional on-site installation and comprehensive operator training. Our technicians will ensure your team is fully capable of operating the press, adjusting parameters, changing dies, and performing routine hydraulic system maintenance.</p>"
+      },
+      "customization": {
+        "question": "Can I customize the tonnage and working area?",
+        "answer": "<p>Absolutely. We offer hydraulic presses from 10 tons to 2000+ tons with customizable working area dimensions. Stroke length, daylight opening, and table size can all be tailored to your specific requirements.</p>"
+      },
+      "safety": {
+        "question": "What safety features are included?",
+        "answer": "<p>All Pernoscal hydraulic presses include safety guards, two-hand operation controls, emergency stop buttons, pressure relief valves, and overload protection. Optional light curtains and safety PLCs are available for enhanced operator protection.</p>"
+      },
+      "oil": {
+        "question": "How often does hydraulic oil need to be changed?",
+        "answer": "<p>With proper filtration and operating temperatures, hydraulic oil typically lasts 3,000-5,000 operating hours. We recommend oil analysis every 500 hours and filter changes every 1,000 hours. Quality ISO VG 46 hydraulic oil is recommended.</p>"
+      },
+      "support": {
+        "question": "Is remote technical support available?",
+        "answer": "<p>Yes, we provide 24/7 remote technical assistance via video calls and our dedicated support portal. Many hydraulic system issues can be diagnosed and resolved remotely, minimizing downtime.</p>"
+      },
+      "automation": {
+        "question": "Can Pernoscal hydraulic presses be integrated with automation?",
+        "answer": "<p>Yes, our hydraulic presses can be integrated with robots, moving worktables, automatic die change systems, and conveyor lines for fully automated production. We offer complete turnkey solutions.</p>"
+      }
+    }
+  },
+  "inquiry": {
+    "label": "Get a Quote",
+    "title": "Request a Quote",
+    "subtitle": "Our engineering team is ready to help you find the perfect hydraulic press solution",
+    "placeholders": {
+      "name": "Full Name*",
+      "email": "Email*",
+      "company": "Company Name",
+      "whatsapp": "WhatsApp Number",
+      "message": "Tell us about your project requirements*"
+    },
+    "submitBtn": "Send Inquiry",
+    "successTitle": "Message Sent!",
+    "successDesc": "Thank you for reaching out. Our engineering team will review your requirements and contact you shortly.",
+    "backBtn": "Send Another Message"
   }
 }

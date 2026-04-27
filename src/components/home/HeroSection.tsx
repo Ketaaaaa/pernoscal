@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { ParticleField } from "@/components/3d/ParticleField";
+import { AnimatedCounter } from "@/components/ui/AnimatedCounter";
 import {
   FacebookIcon,
   InstagramIcon,
@@ -22,6 +23,7 @@ const socialLinks = [
 
 export function HeroSection() {
   const t = useTranslations("hero");
+  const ts = useTranslations("stats");
 
   return (
     <section className={styles.section} aria-labelledby="hero-title">
@@ -65,6 +67,13 @@ export function HeroSection() {
                 <social.icon size={20} />
               </motion.a>
             ))}
+          </div>
+
+          <div className={styles.stats}>
+            <AnimatedCounter value={5} suffix="+" label={ts("years")} />
+            <AnimatedCounter value={10} label={ts("lines")} />
+            <AnimatedCounter value={120} suffix="+" label="Projects" />
+            <AnimatedCounter value={2} suffix="+" label={ts("markets")} />
           </div>
         </motion.div>
         <motion.div

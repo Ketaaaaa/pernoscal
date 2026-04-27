@@ -1,16 +1,37 @@
 export type ProductSlug =
-  | "four-column-press"
-  | "recycling-press"
-  | "hydraulic-cylinders";
+  | "pillarPress"
+  | "deepDrawing"
+  | "thermalPress"
+  | "verticalRecycling"
+  | "horizontalRecycling"
+  | "metalRecycling"
+  | "cylinders"
+  | "pistonRods"
+  | "honedTubes"
+  | "sealingSystems";
 
 export const productSlugs: ProductSlug[] = [
-  "four-column-press",
-  "recycling-press",
-  "hydraulic-cylinders",
+  "pillarPress",
+  "deepDrawing",
+  "thermalPress",
+  "verticalRecycling",
+  "horizontalRecycling",
+  "metalRecycling",
+  "cylinders",
+  "pistonRods",
+  "honedTubes",
+  "sealingSystems",
 ];
 
 export const productCatalogue: Partial<Record<ProductSlug, string>> = {
-  "four-column-press": "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
-  "recycling-press": "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
-  "hydraulic-cylinders": "/catalogues/Pernoscal-Hydrualic-Cylinders-Catalogue.pdf",
+  pillarPress: "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
+  deepDrawing: "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
+  thermalPress: "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
+  verticalRecycling: "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
+  horizontalRecycling: "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
+  metalRecycling: "/catalogues/Pernoscal-Hydrualic-Press-Catalogue.pdf",
+  cylinders: "/catalogues/Pernoscal-Hydrualic-Cylinders-Catalogue.pdf",
+  pistonRods: "/catalogues/Pernoscal-Hydrualic-Cylinders-Catalogue.pdf",
+  honedTubes: "/catalogues/Pernoscal-Hydrualic-Cylinders-Catalogue.pdf",
+  sealingSystems: "/catalogues/Pernoscal-Hydrualic-Cylinders-Catalogue.pdf",
 };

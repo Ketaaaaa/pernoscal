@@ -11,15 +11,9 @@ import { ProductFilter } from "./ProductFilter";
 import { ProductCard } from "./ProductCard";
 import styles from "./ProductsGrid.module.css";
 
-const slugToNs = {
-  "four-column-press": "fourColumn",
-  "recycling-press": "recycling",
-  "hydraulic-cylinders": "cylinders",
-} as const;
-
 export function ProductsGrid() {
   const [filter, setFilter] = useState<ProductCategory>("all");
-  const tp = useTranslations("products");
+  const t = useTranslations("homeProducts");
 
   const slugs = useMemo(() => {
     if (filter === "all") return productSlugs;
@@ -31,14 +25,13 @@ export function ProductsGrid() {
       <ProductFilter value={filter} onChange={setFilter} />
       <div className={styles.grid}>
         {slugs.map((slug) => {
-          const ns = slugToNs[slug];
           return (
             <ProductCard
               key={slug}
               slug={slug}
-              title={tp(`${ns}.title`)}
-              short={tp(`${ns}.short`)}
-              category={tp(`${ns}.category`)}
+              title={t(`${slug}.title`)}
+              short={t(`${slug}.tagline`)}
+              category={t(`${slug}.badge`)}
             />
           );
         })}

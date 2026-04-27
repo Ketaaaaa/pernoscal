@@ -9,6 +9,15 @@ const nextConfig = {
    * Windows dev: persistent webpack cache can reference missing numeric chunks
    * after HMR (e.g. ./682.js). Disabling cache in dev avoids MODULE_NOT_FOUND.
    */
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "www.harsle.com",
+      },
+      
+    ],
+  },
   webpack: (config, { dev }) => {
     if (dev) {
       config.cache = false;
