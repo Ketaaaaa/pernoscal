@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { Check, Info, Calculator, Layers, Play } from "lucide-react";
+import { Check, Info, Calculator, Play } from "lucide-react";
 import styles from "./SelectionGuide.module.css";
 
 export function SelectionGuide() {
